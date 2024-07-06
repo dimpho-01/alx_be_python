@@ -10,7 +10,7 @@ def convert_to_farenheit(celsius):
     return temp
 
 temperature = input("Enter the temperature to convert: ")
-unit = input("Is this temperature in Celsius or Farenheit? (C/F): ")
+unit = input("Is this temperature in Celsius or Farenheit? (C/F):")
 
 if (not temperature.isdigit()):
     print("Invalid temperature. Please enter a numeric value.")
