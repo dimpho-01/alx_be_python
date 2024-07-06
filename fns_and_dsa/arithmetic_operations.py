@@ -10,6 +10,6 @@ def perform_operation(num1, num2, operation):
             if num2 == 0:
                 print("Error: Cannot divide by zero.")
                 result = 0
-            else:
+            elif num2 != 0:
                 result = num1/num2
     return result
